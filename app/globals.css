@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@theme inline {
+  --color-vb-blue: #003f87;
+  --color-vb-light: #f5f8fa;
+  --color-vb-border: #e0e6ed;
+  --color-vb-success: #00a86b;
+  --color-vb-gray: #667085;
+  --color-white: #ffffff;
+  --color-background: #f5f8fa;
+  --color-foreground: #003f87;
+  --color-primary: #003f87;
+  --color-primary-foreground: #ffffff;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply bg-background;
+  }
+}
